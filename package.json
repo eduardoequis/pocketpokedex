@@ -1,0 +1,16 @@
+{
+  "name": "dex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/styles.css -o dist/compiled.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

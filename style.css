@@ -1,0 +1,129 @@
+
+
+body {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Cabin', sans-serif;
+}
+
+.main {
+  width: 50% ;
+  background: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.bloques {
+    border-color: #ff5f5f;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.imagen {
+    background: white;
+    margin: 2%;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.sprite img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.informacion {
+    background: #aa1818;
+    color: white;
+    margin: 2%;
+    width: 55%;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.text {
+    padding: 5%;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+p {
+    margin: 0;
+}
+
+.boton {
+    order: 1;
+    flex: 0 0 89%;
+    padding: 2%;
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton button {
+    font-size: 120%;
+    padding: 3%;
+    border-radius: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    background: #10a4ff;
+    color: white;
+}
+
+@media only screen and (max-width: 820px) {
+
+    .main {
+        width: 60%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    .imagen {
+        margin: 2%;
+        width: 95%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .informacion {
+        margin: 2%;
+        width: 95%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+
+    .boton {
+        width: 100%;
+        padding: 2%;
+        display: flex;
+    }
+
+    .boton button {
+        width: 100%;
+    }
+
+.sprite img {
+    width: 50%;
+}
+    
+    }
+
