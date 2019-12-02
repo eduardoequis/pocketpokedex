@@ -1,5 +1,5 @@
 # Pocket Pokedex
-Show you a random Pókemon info, by clicking the buttom.
+Show you a random Pokémon data, by clicking the buttom.
 (In Spanish)
 
 # Built with
